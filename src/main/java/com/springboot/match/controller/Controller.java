@@ -6,8 +6,14 @@ import org.springframework.web.bind.annotation.*;
 public class Controller
 {
 
+    @GetMapping(value = "/",produces = "text/html")
+    public String healthCheck()
+    {
+        return "Match application is running";
+    }
 
-@GetMapping(value = "/id",produces = "text/html")
+
+    @GetMapping(value = "/id",produces = "text/html")
     public String test()
 {
     return "abc";
