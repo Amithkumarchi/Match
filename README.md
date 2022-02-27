@@ -7,7 +7,7 @@ This Application uses inbuilt H2 database and internal tomcat server
 
 Endpoints
 
-Health Check application just give slash after portnumber in your local
+For Health Check of the  application, just give slash after portnumber in your local
 
 eg: localhost:8080/
 
