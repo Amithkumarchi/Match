@@ -13,7 +13,7 @@ eg: localhost:8080/
 
 To Add player as id of the player is auto generated
 
-find the same curl
+find the sample curl
 
 curl --location --request POST 'localhost:8080/register' \
 --header 'Content-Type: application/json' \
