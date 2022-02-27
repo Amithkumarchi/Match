@@ -1,0 +1,9 @@
+curl --location --request POST 'localhost:8080/register' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"name": "deepak",
+"dateOfBirth":"20nov",
+"email": "some@test.com",
+"status": "win",
+"noShow": "Y"
+}'
